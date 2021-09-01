@@ -1,6 +1,6 @@
 body {
   font-family: 'Roboto', sans-serif;
-  color: orangered;
+  color: #E69F64;
 }
 
 h1 {
@@ -15,7 +15,17 @@ h2 {
 
 .cell {
   /* padding: 20px; */
-  background: gold;
+  /* background: gold; */
+}
+
+.radial-background {
+  background: radial-gradient(#3C8A8A, #e66465 );
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: -100;
 }
 
 #header-left {
